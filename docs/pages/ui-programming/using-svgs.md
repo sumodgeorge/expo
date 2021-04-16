@@ -63,3 +63,5 @@ const styles = StyleSheet.create({
 ```
 
 </SnackInline>
+
+You can learn more about SVG with our [API Reference document on SVG](http://localhost:3002/versions/latest/sdk/svg/).
