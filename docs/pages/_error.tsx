@@ -329,6 +329,7 @@ const RENAMED_PAGES: Record<string, string> = {
   // Migrated FAQ pages
   '/faq/image-background/': '/ui-programming/image-background/',
   '/faq/react-native-styling-buttons/': '/ui-programming/react-native-styling-buttons/',
+  '/faq/using-svgs/': '/ui-programming/using-svgs/',
   '/faq/react-native-version-mismatch/': '/troubleshooting/react-native-version-mismatch/',
   '/faq/clear-cache-windows/': '/troubleshooting/clear-cache-windows/',
   '/faq/clear-cache-macos-linux/': '/troubleshooting/clear-cache-macos-linux/',
