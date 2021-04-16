@@ -6,21 +6,21 @@ sidebar_title: Using SVGs
 import SnackInline from '~/components/plugins/SnackInline';
 import TerminalBlock from '~/components/plugins/TerminalBlock';
 
-SVGs (Scalable Vector Graphics) are a great way to present icons and other visual elements in a flexible, crisp, performant way. Using SVGs on the web is straightforward, since we can copy an SVG and place it inline in an HTML file, and it will work. This is because browsers understand how to parse and present SVG. React Native does not understand how to parse and present SVG out of the box, so we'll need to use a package and an SVG converter to do so.
+SVGs (Scalable Vector Graphics) are a great way to present icons and other visual elements in a flexible, crisp, and performant way. Using SVGs on the web is straightforward, since we can copy an SVG and place it inline in an HTML file. This works because browsers understand how to parse and present SVGs. React Native does not understand how to parse and present SVG out of the box, so we'll need to use a React Native package and an SVG converter to do so.
 
-Let's go over the whole process of creating an SVG to presenting it in React Native.
+Let's go over the whole process of creating an SVG to presenting it in a React Native project.
 
 ## Exporting an SVG
 
-Once we have a vector design inside a design program, like Figma, Illustrator, or Sketch, we can find the "export" menu, and specify "SVG" as the type of exported file. Alternatively, these programs often allow right clicking on an element, then copying it as an SVG.
+Once we have a vector created inside a design program, like Figma, Illustrator, or Sketch, find the "export" menu and specify "SVG" as the export type. This will create an SVG file we can view in a code editor. Alternatively, these programs often allow right clicking on an element, then copying it as an SVG.
 
 ## Converting an SVG for React Native
 
-Next, let's convert our SVG to be compatible with React Native. [React-SVGR](https://react-svgr.com/playground/?native=true) is a great tool to accomplish this. It takes an SVG as input then transforms them into other formats, including one that works with React Native.
+Now, it's time to convert our SVG to be compatible with React Native. [React-SVGR](https://react-svgr.com/playground/?native=true) is a great tool to accomplish this. It takes an SVG as input then can transform it into another format, including a format that works with React Native.
 
-We can paste the SVG contents from our exported SVG file into [React-SVGR](https://react-svgr.com/playground/?native=true), and it will provide output so that we can copy and paste into our React Native project.
+Paste the SVG contents from the exported SVG file into [React-SVGR](https://react-svgr.com/playground/?native=true) and make sure the "native" checkbox is ticked. It will provide output that we can copy and paste into our React Native project.
 
-To automate this process, React-SVGR also [provides a CLI](https://react-svgr.com/docs/cli/) that could allow us to put regular SVGs in our project, then run a script that would convert them into React Native components automatically.
+To automate this process, React-SVGR also [provides a CLI](https://react-svgr.com/docs/cli/) that could allow us to put regular SVGs in our project, then run a script that would convert them into React Native components automatically. If you have many icons, or a team of developers working on your project, it's definitely worth the time to set up process like this.
 
 ## Including the SVG in our project
 
