@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/expo/expo/tree/master/packages/expo-module-scripts#readme",
   "dependencies": {
-    "@babel/cli": "^7.1.2",
+    "@babel/cli": "^7.12.0",
     "@expo/npm-proofread": "^1.0.1",
     "@tsconfig/node10": "^1.0.7",
     "@testing-library/react-hooks": "^3.2.1",
