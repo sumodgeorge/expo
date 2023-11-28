@@ -34,10 +34,10 @@
     "preset": "expo-module-scripts"
   },
   "dependencies": {
-    "@expo/metro-config": "^0.1.59",
-    "@expo/config-plugins": "^1.0.18",
+    "@expo/metro-config": "^0.1.84",
+    "@expo/config-plugins": "^3.1.0",
     "expo-structured-headers": "~1.0.1",
-    "fbemitter": "^2.1.1",
+    "fbemitter": "^3.0.0",
     "uuid": "^3.4.0",
     "resolve-from": "^5.0.0"
   },
