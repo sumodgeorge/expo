@@ -55,7 +55,7 @@
     "react-native": "0.63.2",
     "react-native-gesture-handler": "~1.10.2",
     "react-native-safe-area-view": "^0.14.8",
-    "sinon": "^7.1.1"
+    "sinon": "^16.1.2"
   },
   "devDependencies": {
     "expo-yarn-workspaces": "^1.4.1"
