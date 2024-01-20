@@ -29,9 +29,9 @@
   "license": "MIT",
   "homepage": "https://docs.expo.dev",
   "dependencies": {
-    "@expo/config-plugins": "^4.0.14",
+    "@expo/config-plugins": "^7.2.0",
     "resolve-from": "^5.0.0",
-    "semver": "^7.3.5",
+    "semver": "^7.5.2",
     "expo-dev-menu": "0.9.1"
   },
   "devDependencies": {
