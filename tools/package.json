@@ -75,7 +75,7 @@
     "nullthrows": "^1.1.0",
     "open": "^7.1.0",
     "ora": "^3.4.0",
-    "pacote": "^11.2.7",
+    "pacote": "^16.0.0",
     "parse-diff": "^0.8.1",
     "plist": "^3.0.1",
     "pretty-bytes": "^5.6.0",
