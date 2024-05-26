@@ -63,7 +63,7 @@
     "@expo/config-plugins": "^4.0.15",
     "@expo/json-file": "8.2.34",
     "@expo/metro-config": "~0.3.7",
-    "@expo/package-manager": "0.0.49",
+    "@expo/package-manager": "0.0.59",
     "@expo/prebuild-config": "^3.0.16",
     "@expo/spawn-async": "1.5.0",
     "@expo/vector-icons": "^12.0.4",
@@ -96,7 +96,7 @@
     "semver": "^7.3.2",
     "slugify": "^1.3.4",
     "tar": "^6.0.5",
-    "tempy": "^0.7.1",
+    "tempy": "^3.0.0",
     "terminal-link": "^2.1.1",
     "uuid": "^3.4.0"
   },
