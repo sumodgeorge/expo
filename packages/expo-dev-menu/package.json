@@ -45,7 +45,7 @@
     ]
   },
   "dependencies": {
-    "@expo/config-plugins": "^4.0.14",
+    "@expo/config-plugins": "^7.2.2",
     "expo-dev-menu-interface": "0.5.1"
   },
   "devDependencies": {
