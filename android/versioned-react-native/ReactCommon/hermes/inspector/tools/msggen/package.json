@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "devtools-protocol": "0.0.730699",
-    "yargs": "^14.2.0"
+    "yargs": "^16.1.1"
   }
 }
