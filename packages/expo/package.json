@@ -69,7 +69,7 @@
     "@expo/vector-icons": "^12.0.4",
     "arg": "4.1.0",
     "babel-preset-expo": "~9.0.1",
-    "cacache": "^15.3.0",
+    "cacache": "^19.0.0",
     "chalk": "^4.0.0",
     "cross-spawn": "^6.0.5",
     "expo-application": "~4.0.1",
